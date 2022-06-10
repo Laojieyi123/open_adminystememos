@@ -1,5 +1,5 @@
-# open_adminsystemdemos
-
+# open_adminystememos
+该项目是日常demo汇总
 #### 介绍
 vue+elementUI封装日期选择器组件（月度+季度+年度+单选+多选+连选）
 
@@ -34,3 +34,4 @@ vue+elementUI封装日期选择器组件（月度+季度+年度+单选+多选+�
 4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
 5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
 6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+
