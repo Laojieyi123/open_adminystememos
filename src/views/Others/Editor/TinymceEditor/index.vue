@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div style="margin: 10px">
-      <el-button style="width: 49%" @click="saveModify">保存修改</el-button>
-      <el-button style="width: 49%" @click="exportWord">导出word</el-button>
+    <div class="flexBtnBox" style="margin: 10px">
+      <el-button @click="saveModify">保存修改</el-button>
+      <el-button @click="exportWord">导出word</el-button>
     </div>
     <!-- 富文本编辑器 -->
     <Editor
@@ -38,6 +38,8 @@ import "tinymce/plugins/template"; // 模板插件
 import "tinymce/plugins/fullscreen";
 import "tinymce/plugins/paste";
 import "tinymce/plugins/preview";
+import "/public/tinymce/importword"
+
 export default {
   name: "TinymceEditor",
   components: { Editor },
@@ -62,13 +64,13 @@ export default {
       //使用的插件 - 根据需求进行删减
       type: [String, Array],
       default:
-        "link lists image code table wordcount media fullscreen paste preview",
+        "link lists image code table wordcount media fullscreen paste preview importword",
     },
     toolbar: {
       //工具栏 - 根据需求进行删减
       type: [String, Array],
       default:
-        "fontselect | bold italic underline strikethrough | link unlink image | undo redo | fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | outdent indent blockquote | code | removeformat",
+        "importword | fontselect | bold italic underline strikethrough | link unlink image | undo redo | fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | outdent indent blockquote | code | removeformat",
     },
   },
   data() {
@@ -94,6 +96,7 @@ export default {
         plugins: this.plugins,
         powerpaste_word_import: "merge",
         toolbar: this.toolbar,
+        toolbar_mode:"sliding",
         paste_data_images: true,
         statusbar: true, // 底部的状态栏
         menubar: true, // 最上方的菜单
@@ -127,3 +130,14 @@ export default {
   },
 };
 </script>
+<style scoped>
+.flexBtnBox{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+}
+.flexBtnBox > .el-button{
+ flex: 1;
+}
+</style>
