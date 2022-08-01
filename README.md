@@ -1,37 +1,30 @@
 # open_adminystememos
-该项目是日常demo汇总
+简易后台管理系统，日常demo的汇总
 #### 介绍
-vue+elementUI封装日期选择器组件（月度+季度+年度+单选+多选+连选）
+该项目是前端日常demo的汇总，运用了vue前端框架。
 
 #### 软件架构
 软件架构说明
 
-
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  ```git clone https://gitee.com/laojieyi/open_adminystememos.git```
+或者```git clone https://github.com/Laojieyi123/open_adminystememos.git```
+2.  ```npm install```
+3.  ```npm run serve```
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
-
+1、富文本编辑器的使用1——CKEditor5编辑器
+https://juejin.cn/post/7090719047037714463
+2、富文本编辑器的使用2——Tinymce编辑器+支持导出Word+导入Word
+导出word：https://juejin.cn/post/7090723136232292366
+导入Word：https://juejin.cn/post/7110046266909949983
+3、纯前端导出Excel详细过程（包含按列导出+表格带样式+表格合并+表格嵌套表格+中英文两个sheet）
+https://juejin.cn/post/7097007976715649061
+4、sortablejs对el-table进行拖拽排序
+https://juejin.cn/post/7101851867323301902
+5、vue+elementUI封装日期选择器组件（月度+季度+年度+单选+多选+连选）
+https://juejin.cn/post/7102332800702890021
+6、自定义el-select多选下拉框，添加搜索全选等功能，解决搜索无数据时搜索框消失问题
+https://juejin.cn/post/7126750701589364766
